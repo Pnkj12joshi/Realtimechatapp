@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.App {
+  min-height: 100vh;
+  display: flex;
+  background: rgb(144, 144, 212);
+  background: linear-gradient(
+    90deg,
+    rgba(144, 144, 212, 1) 8%,
+    rgba(18, 203, 195, 1) 49%,
+    rgba(230, 238, 240, 1) 100%
+  );
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(136, 136, 136, 0.281);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.messages {
+  display: "flex";
+  flex-direction: "column";
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
